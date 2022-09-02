@@ -27,7 +27,7 @@ st.markdown('En esta clase vamos a repasar los principales conceptos de la estad
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
     st.image("estadis.jpg",  width=500)
-    st.image("https://i0.wp.com/sonria.com/wp-content/uploads/2019/09/estadis.jpg",  width=500)
+    #st.image("https://i0.wp.com/sonria.com/wp-content/uploads/2019/09/estadis.jpg",  width=500)
 
 st.markdown('__¿Qué es la estadística?__ La estadística es una disciplina científica que se ocupa de la obtención, orden y análisis de un conjunto de datos con el fin de obtener explicaciones y predicciones sobre fenómenos observados. Los tipos de estadística se puede subdividir en dos grandes ramas: descriptiva e inferencial.')
 
@@ -41,7 +41,8 @@ st.markdown('La historia de la estadística data desde antes del 3.000 antes de 
 
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
-    st.image("https://mihistoriauniversal.com/wp-content/uploads/agricultura-neolitico.jpg",  width=500)
+    st.image("agricultura.jpeg",  width=500)
+    #st.image("https://mihistoriauniversal.com/wp-content/uploads/agricultura-neolitico.jpg",  width=500)
 
 st.markdown('En la antigua Asiria y en Egipto se tiene evidencia de la recolección de datos estadísticos. Asimismo, en Roma se recogían datos demográficos de los habitantes del imperio, como aquellos de natalidad y mortalidad. Esto, con el propósito de tomar mejores decisiones desde el gobierno.')
 
