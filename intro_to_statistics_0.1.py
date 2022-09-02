@@ -345,7 +345,7 @@ st.write('https://tudashboard.com/grafica-de-pastel/')
 st.write('https://tudashboard.com/diagrama-de-caja-bigote/')
 st.write('https://tudashboard.com/grafica-de-dispersion/')
 
-st.subheader('Resultado de la evaluación:')
+#st.subheader('Resultado de la evaluación:')
 
 @st.cache
 def resultado():
@@ -390,5 +390,5 @@ def resultado():
         respuesta = respuesta
     return (respuesta / 7) * 100
 
-st.markdown('Tu puntaje sobre 100 fue de:')
+#st.markdown('Tu puntaje sobre 100 fue de:')
 st.title(str(int(resultado())))
