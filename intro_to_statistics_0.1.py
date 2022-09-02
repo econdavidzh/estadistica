@@ -240,12 +240,19 @@ st.markdown('¿A qué variables le podemos calcular estos parámetros de dispers
 q4 = st.multiselect('Selecciona las variables:', lista_variables)
 q4 = set(q4)
 
-st.subheader('Ejercicio 5.')
-st.markdown('¿Cuál de las siguientes medidas está en las mismas unidades de nuestra variable?:')
-q5_1 = st.checkbox('el Rango.') 
-q5_2 = st.checkbox('la Desviación media.')
-q5_3 = st.checkbox('la Varianza.')
-q5_4 = st.checkbox('la Desviación Estándar.')
+st.subheader('Ejercicio 5.1')
+q5_1 = st.radio('¿Puede ser negativa la desviación estándar?:', 
+              ["Cierto",
+               "Falso"])
+
+
+#st.markdown('¿Puede ser negativa la desviación estándar?:')
+#q5_1 = st.checkbox('Verdadero') 
+#q5_2 = st.checkbox('Falso')
+st.subheader('Ejercicio 5.2')
+q5_2 = st.radio('¿Cuál es la varianza de una serie de 50 datos todos iguales a 5?:', 
+              ["0",
+               "5"])
 
 st.subheader('Medidas de posición de un valor:')
 
@@ -347,48 +354,48 @@ st.write('https://tudashboard.com/grafica-de-dispersion/')
 
 #st.subheader('Resultado de la evaluación:')
 
-@st.cache
-def resultado():
-    respuesta = 0
-    if q1 == "Con muestreo aleatorio.":
-        respuesta += 1
-    else:
-        respuesta = respuesta
-    if q2_1 == {'type', 'release_year', 'age_certification', 'genres', 'production_countries'}:
-        respuesta += 1
-    else:
-        respuesta = respuesta
-    if q2_2 == {'release_year', 'runtime', 'seasons', 'imdb_score', 'imdb_votes', 'tmdb_popularity', 'tmdb_score'}:
-        respuesta += 1
-    else:
-        respuesta = respuesta    
-    if q3_1:
-        respuesta += 1
-    else:
-        respuesta = respuesta
-    if q3_2:
-        respuesta -= 1
-    else:
-        respuesta = respuesta
-    if q4 == {'release_year', 'runtime', 'seasons', 'imdb_score', 'imdb_votes', 'tmdb_popularity', 'tmdb_score'}:
-        respuesta += 1
-    else:
-        respuesta = respuesta
-    if q5_1 & q5_2 & q5_4:
-        respuesta += 1
-    else:
-        respuesta = respuesta
-    if q5_3:
-        respuesta -= 1
-    if q6_1:
-        respuesta += 1
-    else:
-        respuesta = respuesta
-    if q6_2 or q6_3 or q6_4:
-        respuesta -= 1
-    else:
-        respuesta = respuesta
-    return (respuesta / 7) * 100
+#@st.cache
+#def resultado():
+#    respuesta = 0
+#    if q1 == "Con muestreo aleatorio.":
+#        respuesta += 1
+#    else:
+#        respuesta = respuesta
+#    if q2_1 == {'type', 'release_year', 'age_certification', 'genres', 'production_countries'}:
+#        respuesta += 1
+#    else:
+#        respuesta = respuesta
+#    if q2_2 == {'release_year', 'runtime', 'seasons', 'imdb_score', 'imdb_votes', 'tmdb_popularity', 'tmdb_score'}:
+#        respuesta += 1
+#    else:
+#        respuesta = respuesta    
+#    if q3_1:
+#        respuesta += 1
+#    else:
+#        respuesta = respuesta
+#    if q3_2:
+#        respuesta -= 1
+#    else:
+#        respuesta = respuesta
+#    if q4 == {'release_year', 'runtime', 'seasons', 'imdb_score', 'imdb_votes', 'tmdb_popularity', 'tmdb_score'}:
+#        respuesta += 1
+#    else:
+#        respuesta = respuesta
+#    if q5_1 & q5_2 & q5_4:
+#        respuesta += 1
+#    else:
+#        respuesta = respuesta
+#    if q5_3:
+#        respuesta -= 1
+#    if q6_1:
+#        respuesta += 1
+#    else:
+#        respuesta = respuesta
+#    if q6_2 or q6_3 or q6_4:
+#        respuesta -= 1
+#    else:
+#        respuesta = respuesta
+#    return (respuesta / 7) * 100
 
 #st.markdown('Tu puntaje sobre 100 fue de:')
-st.title(str(int(resultado())))
+#st.title(str(int(resultado())))
