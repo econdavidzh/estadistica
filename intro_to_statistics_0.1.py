@@ -21,7 +21,7 @@ st.title('Conceptos y Aplicaciones de la Estadística')
 
 st.subheader('Introducción')
 
-st.markdown('En esta clase vamos a repasar los principales conceptos de la estadística, y vamos a ver en la práctica para qué nos sirven, y algunos de sus usos actuales, desde el análisis de las características de una población hasta pronósticar la ocurrencia de algún evento.')
+st.markdown('En esta clase vamos a repasar los principales conceptos de la estadística. Vamos a ver en la práctica para qué nos sirven, y algunos de sus usos actuales, desde el análisis de las características de una población hasta pronósticar la ocurrencia de algún evento.')
 
 # Imagen intro:
 col1, col2, col3 = st.columns([1,6,1])
