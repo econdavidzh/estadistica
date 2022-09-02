@@ -231,7 +231,8 @@ st.markdown(' - __Desviación Estándar:__ ofrece información de la dispersión
     
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
-    st.image("http://1.bp.blogspot.com/-HH7e3IgY168/VfOaMikVJOI/AAAAAAAAFjg/21y4oJdtZ84/s1600/17.JPG",  width=500)    
+    st.image("desv.jpeg",  width=500)    
+    #st.image("http://1.bp.blogspot.com/-HH7e3IgY168/VfOaMikVJOI/AAAAAAAAFjg/21y4oJdtZ84/s1600/17.JPG",  width=500)    
 
 st.subheader('Ejercicio 4.')
 
