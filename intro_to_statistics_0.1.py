@@ -26,6 +26,7 @@ st.markdown('En esta clase vamos a repasar los principales conceptos de la estad
 # Imagen intro:
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
+    st.image("estadis.jpg",  width=500)
     st.image("https://i0.wp.com/sonria.com/wp-content/uploads/2019/09/estadis.jpg",  width=500)
 
 st.markdown('__¿Qué es la estadística?__ La estadística es una disciplina científica que se ocupa de la obtención, orden y análisis de un conjunto de datos con el fin de obtener explicaciones y predicciones sobre fenómenos observados. Los tipos de estadística se puede subdividir en dos grandes ramas: descriptiva e inferencial.')
