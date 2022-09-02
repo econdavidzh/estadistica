@@ -52,7 +52,8 @@ st.markdown('La estadística continúa desarrollándose y cada vez más deprisa.
 
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
-    st.image("https://static.nuso.org/media/cache/3c/c5/3cc55e322675d9fa931f8cdae113be91.jpg",  width=500)
+    st.image("ai.jpeg",  width=500)
+    #st.image("https://static.nuso.org/media/cache/3c/c5/3cc55e322675d9fa931f8cdae113be91.jpg",  width=500)
 
 st.subheader('__Conceptos estadísticos__')
 
@@ -61,7 +62,8 @@ st.markdown(' - __Muestra:__ Es un subgrupo de individuos extraídos de una pobl
 
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
-    st.image("https://docplayer.es/docs-images/88/114622284/images/10-5.jpg",  width=500)
+    st.image("muestra.jpeg",  width=500)
+    #st.image("https://docplayer.es/docs-images/88/114622284/images/10-5.jpg",  width=500)
 
 st.markdown('La siguiente base de datos contiene la información de __5806 series y películas__ que se encuentran en __Netflix__. Vamos a tomar una muestra de estas para estudiar varios conceptos estadísticos. La descripción de las variables es la siguiente:')
 
@@ -163,7 +165,8 @@ st.markdown('__Media:__ también conocida como __promedio__, es el resultado de 
 
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
-    st.image("https://img.blogs.es/anexom/wp-content/uploads/2020/12/diferencias-entre-moda-media-y-mediana.jpg",  width=500)
+    st.image("media.jpeg",  width=500)
+    #st.image("https://img.blogs.es/anexom/wp-content/uploads/2020/12/diferencias-entre-moda-media-y-mediana.jpg",  width=500)
 
 st.subheader('Ejercicio 3.')
 
@@ -260,7 +263,8 @@ st.markdown(' - __Los deciles,__ que dividen a la distribución en diez partes (
 
 col1, col2, col3 = st.columns([1,6,1])
 with col2:
-    st.image("http://www.unamamiquesemima.com/wp-content/uploads/2016/06/Captura-de-pantalla-2016-06-26-a-las-14.15.26-768x656.png",  width=500)
+    st.image("perc.png",  width=500)
+    #st.image("http://www.unamamiquesemima.com/wp-content/uploads/2016/06/Captura-de-pantalla-2016-06-26-a-las-14.15.26-768x656.png",  width=500)
 
 st.subheader('Ejercicio 6.')
 
