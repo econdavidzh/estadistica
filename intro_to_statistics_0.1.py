@@ -5,7 +5,7 @@ import plotly.express as px
 
 # Barra lateral:
 st.sidebar.markdown('__Conceptos y Aplicaciones Estadísticas__')
-st.sidebar.image("gmsummerhill.jpg", use_column_width=True)
+#st.sidebar.image("gmsummerhill.jpg", use_column_width=True)
 st.sidebar.markdown('Introducción')
 st.sidebar.markdown('Origen e historia de la estadística')
 st.sidebar.markdown('Conceptos Estadísticos:')
@@ -15,6 +15,7 @@ st.sidebar.markdown('Medidas de tendencia central')
 st.sidebar.markdown('Medidas de dispersión')
 st.sidebar.markdown('Medidas de posición')
 st.sidebar.markdown('Visualización de datos')
+st.sidebar.markdown('Aplicación elaborada por [David Zambrano](https://www.linkedin.com/in/david-enrique-zambrano-a753a764/) :flag-co:')
 
 # Título de la Aplicación:
 st.title('Conceptos y Aplicaciones de la Estadística')
